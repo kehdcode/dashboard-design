@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+   box-sizing: border-box;
+}
+body{
+    
+    font-family: 'Montserrat', sans-serif;
+}
+.sidebar {
+    height: 100vh;
+    background-color: black;
+    position: fixed;
+}
+.bottom-border  {
+    border-bottom: 1px groove #fff;
+}
