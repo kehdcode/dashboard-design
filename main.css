@@ -61,6 +61,17 @@ body{
     border-radius: 50%;
 
 }
+
+/*Card*/
+.card {
+    box-shadow: 1px 2px 5px #999;
+    transition: all .3;
+}
+.card:hover {
+    box-shadow: 2px 3px 15px #999;
+    transform: translateY(-1px);
+}
+/*End of card*/
 @media(max-width: 700px){
     .sidebar {
         position: static;
@@ -69,5 +80,5 @@ body{
     .top-navbar{
         position: static;
     }
-
+   
 }
