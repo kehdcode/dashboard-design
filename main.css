@@ -39,11 +39,11 @@ body{
     border-radius: 5px;
     border-bottom: 1px groove #fff;
 }
-.btn {
+.top-button {
     background-color: white;
     border-radius: 50%;
 }
-.btn:hover {
+.top-button:hover {
     transition: all .4s;
     background-color: #eee;
 }

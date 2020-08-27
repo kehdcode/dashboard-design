@@ -82,7 +82,7 @@
                             <form action="">
                                 <div class="input-group">
                                     <input type="text" class="form-control search-filled" placeholder="search">
-                                    <button type="submit" class="btn btn-white ml-1">
+                                    <button type="submit" class="btn btn-white ml-1 top-button">
                                         <i class="fa fa-search text-danger"></i>
                                     </button>
                                 </div>
@@ -220,7 +220,7 @@
             <div class="col-xl-10 col-lg-9 col-md-8 ml-auto">
                 <div class="row">
                     <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
-                        <h2 class="text-center text-light">Staff Salries</h2>
+                        <h2 class="text-center text-muted mb-2">Staff Details</h2>
                         <table class="table table-hover">
                             <thead>
                               <tr>
@@ -237,53 +237,87 @@
                                 <td>Otto</td>
                                 <td>mark.otto@gmail.com</td>
                                 <td><button class="btn btn-info">Edit</button> </td>
+            
                               </tr>
                               <tr>
                                 <th scope="row">2</th>
                                 <td>Jacob</td>
                                 <td>Thornton</td>
                                 <td>@fat</td>
+                                <td><button class="btn btn-info">Edit</button> </td>
                               </tr>
                               <tr>
                                 <th scope="row">3</th>
                                 <td colspan="2">Larry the Bird</td>
                                 <td>@twitter</td>
+                                <td><button class="btn btn-info">Edit</button> </td>
                               </tr>
                             </tbody>
                           </table>
+                          <!--Pagination-->
+                          <nav aria-label="Page navigation example">
+                            <ul class="pagination justify-content-center">
+                              <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                              <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                              <li class="page-item"><a class="page-link" href="#">2</a></li>
+                              <li class="page-item"><a class="page-link" href="#">3</a></li>
+                              <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                            </ul>
+                          </nav>
                     </div>
                     <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
-                        <h2>Staff Salries</h2>
+                        <h2 class="text-muted text-center mb-2">Recent Payment</h2>
                         <table class="table table-sm table-dark">
                             <thead>
                               <tr>
                                 <th scope="col">#</th>
                                 <th scope="col">First</th>
-                                <th scope="col">Last</th>
-                                <th scope="col">Handle</th>
+                                <th scope="col">Date</th>
+                                <th scope="col">Amount($)</th>
+                                <th scope="col">Status</th>
                               </tr>
                             </thead>
                             <tbody>
                               <tr>
                                 <th scope="row">1</th>
                                 <td>Mark</td>
-                                <td>Otto</td>
-                                <td>@mdo</td>
+                                <td>25/08/2020</td>
+                                <td>$2,500</td>
+                               <td> <button class="btn btn-success">Approved</button></td>
                               </tr>
                               <tr>
                                 <th scope="row">2</th>
-                                <td>Jacob</td>
-                                <td>Thornton</td>
-                                <td>@fat</td>
+                                <td>Tommy</td>
+                                <td>25/08/2020</td>
+                                <td>$2,500</td>
+                               <td> <button class="btn btn-danger">pending</button></td>
                               </tr>
                               <tr>
                                 <th scope="row">3</th>
-                                <td colspan="2">Larry the Bird</td>
-                                <td>@twitter</td>
+                                <td>Mark</td>
+                                <td>25/08/2020</td>
+                                <td>$2,500</td>
+                               <td> <button class="btn btn-success">Approved</button></td>
+                              </tr>
+                              <tr>
+                                <th scope="row">4</th>
+                                <td>Mark</td>
+                                <td>25/08/2020</td>
+                                <td>$2,500</td>
+                               <td> <button class="btn btn-success">Approved</button></td>
                               </tr>
                             </tbody>
                           </table>
-                          
+                           <!--Pagination-->
+                           <nav aria-label="Page navigation example">
+                            <ul class="pagination justify-content-center">
+                              <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                              <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                              <li class="page-item"><a class="page-link" href="#">2</a></li>
+                              <li class="page-item"><a class="page-link" href="#">3</a></li>
+                              <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                            </ul>
+                          </nav>                          
                     </div>
                 </div>
 
@@ -292,6 +326,41 @@
     </div>
 
     <!--End Of Tables-->
+    <!--Statistics-->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xl-10 col-lg-9 col-md-8 ml-auto">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                        <h3 class="text-center text-muted">Statistics</h3>
+                        <div class="progress">
+                            <h6 class="mb-3">internet Explorer</h6>
+                            <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 10%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                          </div>
+                          <div class="progress">
+                            <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                          </div>
+                          <div class="progress">
+                            <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                          </div>
+                          <div class="progress">
+                            <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                          </div>
+                          <div class="progress">
+                            <div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                          </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                        <h3 class="text-center text-muted">Task</h3>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <!--End Of Statistics-->
+
+
 
 
     
