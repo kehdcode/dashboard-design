@@ -82,3 +82,8 @@ body{
     }
    
 }
+
+/*Task*/
+.task-border {
+    border-left: 2px solid red;
+}
